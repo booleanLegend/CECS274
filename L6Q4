@@ -1,0 +1,8 @@
+What is the advantage and disadvantage of Sorting and BinarySearch over BinarySearchTree data and heaps data Structures?
+Advantages of Sorting and BinarySearch are that when the element in a sorted array needs to be searched for. If this is
+case then binary search algorithm is the way to go because the search automatically eliminates half of the list from
+further searching by using a recursive approach. However, when the values of an array have to be updated during
+runtime w/out breaking the sorted property, then we need a BST. A BST in this case can insert and delete in O(log(n))
+time while in a binary search it would take O(n). The recursive approach of a BinarySearch is its disadvantage as it
+requires more stack space.
+If we have to search for an element in a sorted array, then a binary search would be fastest.
